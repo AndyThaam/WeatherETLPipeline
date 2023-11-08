@@ -1,0 +1,73 @@
+2023-11-08 15:38:45.947 [info] Log level: Info
+2023-11-08 15:38:45.947 [info] Validating found git in: "git"
+2023-11-08 15:38:45.947 [info] Using git "2.34.1" from "git"
+2023-11-08 15:38:45.947 [info] > git rev-parse --show-toplevel [9ms]
+2023-11-08 15:38:45.947 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:38:45.947 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-08 15:38:45.947 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:38:45.947 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-08 15:38:45.947 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:38:45.947 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-08 15:38:45.947 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:38:45.947 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-08 15:38:45.947 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:38:45.947 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-08 15:38:45.947 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:38:45.947 [info] > git rev-parse --show-toplevel [3ms]
+2023-11-08 15:38:45.947 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:38:45.947 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-08 15:38:45.947 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:40:15.034 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-08 15:40:15.034 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:40:39.011 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-08 15:40:39.012 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:40:43.426 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-08 15:40:43.426 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:40:45.575 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-08 15:40:45.575 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:40:48.973 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-08 15:40:48.973 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:40:55.973 [info] > git rev-parse --show-toplevel [4ms]
+2023-11-08 15:40:55.973 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 15:41:15.047 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-08 15:41:15.047 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 16:33:51.952 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-08 16:33:51.952 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 16:35:03.211 [info] > git rev-parse --show-toplevel [6ms]
+2023-11-08 16:35:03.211 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 16:37:09.083 [info] > git rev-parse --show-toplevel [5ms]
+2023-11-08 16:37:09.083 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 16:37:52.784 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-08 16:37:52.784 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 17:03:44.822 [info] > git rev-parse --show-toplevel [70ms]
+2023-11-08 17:03:44.822 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 17:04:31.903 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-08 17:04:31.903 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 18:58:38.334 [info] > git rev-parse --show-toplevel [24ms]
+2023-11-08 18:58:38.335 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 18:59:50.519 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-08 18:59:50.519 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 19:26:53.252 [info] > git rev-parse --show-toplevel [22ms]
+2023-11-08 19:26:53.253 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 19:26:53.925 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-08 19:26:53.925 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-08 19:30:47.432 [info] > git rev-parse --show-toplevel [1ms]
+2023-11-08 19:30:47.441 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-11-08 19:30:47.457 [info] Open repository: /home/ubuntu
+2023-11-08 19:30:47.479 [info] No remotes found in the git config file.
+2023-11-08 19:30:47.480 [info] > git config --get commit.template [10ms]
+2023-11-08 19:30:47.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-11-08 19:30:47.643 [info] > git status -z -uall [156ms]
+2023-11-08 19:30:47.757 [info] > git config --get commit.template [17ms]
+2023-11-08 19:30:47.775 [info] No remotes found in the git config file.
+2023-11-08 19:30:48.539 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [764ms]
+2023-11-08 19:30:48.660 [info] > git check-ignore -v -z --stdin [41ms]
+2023-11-08 19:30:48.663 [info] > git status -z -uall [58ms]
+2023-11-08 19:30:49.528 [info] > git show --textconv :airflow/dags/weather_dags.py [11ms]
+2023-11-08 19:30:49.531 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dags.py [4ms]
+2023-11-08 19:31:00.817 [info] > git config --get commit.template [1ms]
+2023-11-08 19:31:00.831 [info] No remotes found in the git config file.
+2023-11-08 19:31:00.835 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-11-08 19:31:00.864 [info] > git status -z -uall [19ms]
+2023-11-08 19:31:06.390 [info] > git ls-files --stage -- /home/ubuntu/airflow/dags/weather_dags.py [2ms]
+2023-11-08 19:31:06.458 [info] > git show --textconv :airflow/dags/weather_dags.py [2ms]

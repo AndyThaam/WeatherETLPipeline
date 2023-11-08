@@ -1,0 +1,6 @@
+{
+    "remote.SSH.remotePlatform": {
+        "ec2_custormer_churn_yml": "linux",
+        "WeatherAPI2": "linux"
+    }
+}

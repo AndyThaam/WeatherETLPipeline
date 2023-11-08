@@ -1,0 +1,22 @@
+[2023-11-08T18:43:26.198+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: weather_dag.transform_load_weather_data manual__2023-11-08T18:41:12.003813+00:00 [queued]>
+[2023-11-08T18:43:26.215+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: weather_dag.transform_load_weather_data manual__2023-11-08T18:41:12.003813+00:00 [queued]>
+[2023-11-08T18:43:26.215+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 3
+[2023-11-08T18:43:26.278+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): transform_load_weather_data> on 2023-11-08 18:41:12.003813+00:00
+[2023-11-08T18:43:26.284+0000] {standard_task_runner.py:57} INFO - Started process 25153 to run task
+[2023-11-08T18:43:26.292+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'weather_dag', 'transform_load_weather_data', 'manual__2023-11-08T18:41:12.003813+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/weather_dags.py', '--cfg-path', '/tmp/tmpausjlx2t']
+[2023-11-08T18:43:26.294+0000] {standard_task_runner.py:85} INFO - Job 29: Subtask transform_load_weather_data
+[2023-11-08T18:43:26.411+0000] {task_command.py:416} INFO - Running <TaskInstance: weather_dag.transform_load_weather_data manual__2023-11-08T18:41:12.003813+00:00 [running]> on host ip-172-31-22-131.eu-north-1.compute.internal
+[2023-11-08T18:43:26.580+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='weather_dag' AIRFLOW_CTX_TASK_ID='transform_load_weather_data' AIRFLOW_CTX_EXECUTION_DATE='2023-11-08T18:41:12.003813+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-08T18:41:12.003813+00:00'
+[2023-11-08T18:43:26.585+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/usr/local/lib/python3.10/dist-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/ubuntu/airflow/dags/weather_dags.py", line 30, in transform_load_data
+    sunrise_time = datetime.utcfromtimestamp(data['sys'][sunrise] +data['timezone'])
+NameError: name 'sunrise' is not defined
+[2023-11-08T18:43:26.589+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=weather_dag, task_id=transform_load_weather_data, execution_date=20231108T184112, start_date=20231108T184326, end_date=20231108T184326
+[2023-11-08T18:43:26.601+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 29 for task transform_load_weather_data (name 'sunrise' is not defined; 25153)
+[2023-11-08T18:43:26.625+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-08T18:43:26.637+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

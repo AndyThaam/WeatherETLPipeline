@@ -1,0 +1,2 @@
+City,Description,Temperature(F),Feels like(F),Minimum Temp (F),Maximum Temp (F),Pressure,Humidity,Wind speed,Time of Record,Sunrise (Local Time),Sunset (Local Time)
+Houston,broken clouds,83.53399999999999,87.78200000000001,80.6,87.35,1012,64,7.2,2023-11-08 12:50:01,2023-11-08 06:40:19,2023-11-08 17:30:07
